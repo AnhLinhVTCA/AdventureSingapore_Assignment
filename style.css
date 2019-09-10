@@ -110,12 +110,11 @@
         height: auto;
     }
 
-    .km{
+    .km, #SGD{
         font-size: 40px;
         color: #002a8d;
         font-weight: bold;
     }
     .detail{
-        
         color: #727272;
     }
