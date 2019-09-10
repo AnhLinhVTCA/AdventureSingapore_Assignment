@@ -1,0 +1,121 @@
+    *{
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        padding: 0;
+        margin: 0;
+    }
+    .header{
+        background: linear-gradient(to right, #002771,  #0032ba);
+        border-bottom: 0.2rem solid #ff9f00;
+    }
+    .hd{
+        display: flex;
+        padding: 10px 0px;
+    }
+    .he-content{
+        color: white;
+        cursor: pointer;
+    }
+    .he-menu{
+        margin-left: auto;
+        cursor: pointer;
+    }
+
+    .container{
+        margin: 0px 15px;
+    }
+
+    .title{
+        padding: 20px 0px;
+        background: #dcdad0;
+        color: #00256d;
+    }
+
+    #t1{
+        font-size: 20px;
+    }
+
+    #t2{
+        font-size: 40px;
+    }
+
+    .tab-nav {
+        overflow: hidden;
+        background-color: white;
+        padding-left: 1rem;
+    }
+      
+    .tab-nav button {
+        float: left;
+        background-color: white;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        padding: 5px 24px;
+        transition: 0.3s;
+        font-size: 14px;
+    }
+
+    .tab-nav button:hover {
+        background-color: #ddd;
+    }
+    
+    .t-title{
+        padding: 20px 0px;
+    }
+ 
+    .tab1-nav{
+        background: #dcdad0 !important; 
+        /* border-top: 1.5px solid #1e4ede !important;
+        border-left: 1.5px solid #1e4ede !important;
+        border-right: 1.5px solid #1e4ede !important;
+        border-bottom: 1.5px solid white !important; */
+    }
+
+    #tab1 > p{
+        font-size: 32px;
+        color: #727272;
+    }
+    #sing{
+        font-weight: bold;
+        color: #002777 !important;
+        font-size: 44px !important;
+    }
+    #cont{
+        margin-top: 0.5rem;
+        font-size: 16px !important;
+    }
+
+    #flag-sing{
+        width: 50%;
+        height: auto;
+    }
+    .photo{
+        text-align: center;
+        font-size: 16px;
+        margin-top: 20px;
+    }
+    #country{
+        color: #727272;
+    }
+    /* .intro-flag > p::before {
+        content: "";
+        background: red;
+        padding: 3px;
+        border-radius: 100%;
+    } */
+
+    #ap{
+        margin-top:20px;
+        width: 50%;
+        height: auto;
+    }
+
+    .km{
+        font-size: 40px;
+        color: #002a8d;
+        font-weight: bold;
+    }
+    .detail{
+        
+        color: #727272;
+    }
