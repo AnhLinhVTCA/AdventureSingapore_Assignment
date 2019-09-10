@@ -26,7 +26,9 @@
 
     .title{
         padding: 20px 0px;
-        background: #dcdad0;
+        background-image: url("./Image/bg.png");
+        background-repeat: no-repeat;
+        background-size: cover;
         color: #00256d;
     }
 
@@ -40,13 +42,12 @@
 
     .tab-nav {
         overflow: hidden;
-        background-color: white;
         padding-left: 1rem;
     }
       
     .tab-nav button {
         float: left;
-        background-color: white;
+        background: #f5f5f5;
         border: none;
         outline: none;
         cursor: pointer;
@@ -71,9 +72,12 @@
         border-bottom: 1.5px solid white !important; */
     }
 
-    #tab1 > p{
+    .tab1 > p{
         font-size: 32px;
         color: #727272;
+    }
+    .tabs{
+        background: #f5f5f5;
     }
     #sing{
         font-weight: bold;
@@ -104,13 +108,13 @@
         border-radius: 100%;
     } */
 
-    #ap{
+    #ap, #money, #position{
         margin-top:20px;
         width: 50%;
         height: auto;
     }
 
-    .km, #SGD{
+    .km, .SGD, .pos{
         font-size: 40px;
         color: #002a8d;
         font-weight: bold;
