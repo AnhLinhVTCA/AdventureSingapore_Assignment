@@ -136,8 +136,6 @@
     }
     .footer{
         background: #002569;
-        height: 100px;
-        /* align-items: center; */
     }
     .logo{
         align-items: center;
@@ -249,7 +247,7 @@
             color: white;
             float: left;
             margin-right: 15px;
-            padding: 24px 0px;
+            padding: 24px 0px 24px 15px;
         }
         .home > img {
             width: 30%;
@@ -269,7 +267,7 @@
             content: "";
             position: absolute;
             top: 4.9rem;
-            left: 33.5rem;
+            left: 34rem;
             width: 0.5rem;
             height: 0.5rem;
             background: #ff9f00;
