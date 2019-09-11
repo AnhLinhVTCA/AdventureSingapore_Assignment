@@ -108,6 +108,7 @@
     }
     .photo{
         text-align: center;
+        align-items: center;
         font-size: 16px;
         margin-top: 20px;
     }
@@ -237,7 +238,7 @@
             float: left;
         }
         #flag-sing{
-            width: 40%;
+            width: 30%;
             height: auto;
         }
         .haha{
