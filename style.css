@@ -40,10 +40,18 @@
     #t2{
         font-size: 40px;
     }
-
+    #t1, #t2{
+        background: linear-gradient(to right, #00256d 0%, #7a92eb 50%, #fe9e01 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    #t3{
+        width: 80%;
+    }
     .tab-nav {
         overflow: hidden;
         padding-top: 1rem;
+        display: inline-flex;
     }
       
     .tab-nav button {
@@ -63,13 +71,16 @@
  
     .tab1-nav{
         background: #f5f5f5 !important;
-        border-top: 1.5px solid #1e4ede !important;
-        border-left: 1.5px solid #1e4ede !important;
-        border-right: 1.5px solid #1e4ede !important;
-        border-bottom: 1.5px solid #f5f5f5 !important;
+        border-top: 1px solid #1e4ede !important;
+        border-left: 1px solid #1e4ede !important;
+        border-right: 1px solid #1e4ede !important;
+        border-bottom: 1px solid #f5f5f5 !important;
     }
     .tab2-nav, .tab3-nav{
-        border-bottom: 1.5px solid #1e4ede !important;
+        border-top: 1px solid #8b9abd !important;
+        border-left: 1px solid #8b9abd !important;
+        border-right: 1px solid #8b9abd !important;
+        border-bottom: 1px solid #1e4ede !important;
     }
     .t-title > p{
         font-size: 32px;
@@ -81,7 +92,9 @@
     }
     #sing{
         font-weight: bold;
-        color: #002777 !important;
+        background: linear-gradient(to right, #00256c 0%, #3763f5 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
         font-size: 44px !important;
     }
     #cont{
@@ -169,6 +182,22 @@
     .nav, .navigation{
         display: none;
     }
+    .hihi{
+        display: none;
+        font-size: 10px;
+        color: #969694;
+        align-items: center;
+    }
+    .hihi p:nth-child(5) {
+        color: #002569;
+      }
+    .hihi img{
+          margin-right: 5px;
+    }
+    .hihi img:nth-child(2), .hihi img:nth-child(4){
+        width: 5px;
+        height: 5px;
+  }
     @media only screen and (min-width: 1050px)
     {
         .container{
@@ -227,6 +256,7 @@
             float: left;
         }
         .ft-content{
+            margin-top: 10px;
             width: 40%;
             font-size: 12px !important;
         }
@@ -237,6 +267,9 @@
         .nav{
             display: block;
             margin-left: 50px;
+        }
+        .hihi{
+            display: flex;
         }
         .hm{
             background: #ff9f00;
@@ -284,7 +317,7 @@
         }
         .navigation p {
             position: relative;
-            left: 35%;
+            left: 470px;
             font-size: 12px;
         }
         #kk{
@@ -292,5 +325,9 @@
             border-right: 1px solid white;
             padding-right: 10px;
             margin-right: 10px;
+        }
+        #t2{
+            float: left;
+            margin-right: 20px;
         }
     }
