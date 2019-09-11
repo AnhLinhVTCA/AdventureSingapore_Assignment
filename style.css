@@ -41,7 +41,7 @@
         font-size: 40px;
     }
     #t1, #t2{
-        background: linear-gradient(to right, #00256d 0%, #7a92eb 50%, #fe9e01 100%);
+        background: linear-gradient(to right, #00256d 0%, #7a92eb 20%, #fe9e01 40%);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
     }
@@ -93,7 +93,7 @@
     }
     #sing{
         font-weight: bold;
-        background: linear-gradient(to right, #00256c 0%, #3763f5 100%);
+        background: linear-gradient(to right, #00256c 0%, #3763f5 40%);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         font-size: 44px !important;
@@ -118,6 +118,8 @@
     }
     .intro-flag > p{
         color: #555555;
+        /* margin-right: 30px;
+        text-align: right; */
     }
 
     #ap, #money, #position{
@@ -221,21 +223,31 @@
         #t2{
             font-size: 54px;
         }
+        #t1, #t2{
+            background: linear-gradient(to right, #00256d 0%, #7a92eb 50%, #fe9e01 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
         .dt{
             margin-left:100px; 
         }
         #cont{
-            max-width: 200px;
+            /* max-width: 200px; */
             overflow: hidden;
         }
         #sing{
             font-size: 60px;
+            font-weight: bold;
+                background: linear-gradient(to right, #00256c 0%, #3763f5 50%);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
         }
         .tabs{
             border-top: 1px solid #1e4ede;
         }
         .t-title{
             float: left;
+            width: 66.7%;
         }
         #flag-sing{
             width: 30%;
@@ -245,9 +257,9 @@
             width: 100%;
             display: flex;
         }
-        .distance, .money, .position{
+        /* .distance, .money, .position{
             width: 33.3%;
-        }
+        } */
         .detail{
             max-width: 100%;
             overflow: hidden;
@@ -336,5 +348,10 @@
             overflow: hidden;
             position: absolute;
             bottom: 100%;
+        }
+        .intro-flag > p{
+            color: #555555;
+            margin-right: 30px;
+            text-align: right;
         }
     }
