@@ -51,7 +51,7 @@
     .tab-nav {
         overflow: hidden;
         position: absolute;
-        top: -1.5%;
+        bottom: 100%;
     }
       
     .tab-nav button {
@@ -154,17 +154,16 @@
     }
     .logo{
         align-items: center;
+        justify-content: center;
         display: flex; 
         padding-top: 10px;
     }
     .logo > img {
-        width: 15%;
-        height: auto;
-        margin-left: 10px; 
+        margin-left: 5px; 
     }
     .logo > p {
         color: #ccd3e1;
-        font-size: 14px;
+        font-size: 18px;
         margin-left: 10px; 
     }
     .ft-content{
@@ -264,6 +263,7 @@
         }
         .logo{
             width: 50%;
+            justify-content: center;
             float: right;
         }
         .nav{
@@ -335,6 +335,6 @@
         .tab-nav {
             overflow: hidden;
             position: absolute;
-            top: -3.4%;
+            bottom: 100%;
         }
     }
